@@ -1,0 +1,22 @@
+Package: stablemix
+Type: Package
+Title: Exponentially Tilted Alpha Stable Mixture of Generalized Extreme
+        Value Distributions
+Version: 0.1.0
+Description: Functions for fitting a stable (Hougaard, 1986) mixture
+    GEV random variables. See Reich and Shaby (2012) for positive 
+    stable analog.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Requires: stabledist, extRemes, RandomFields, RcppGSL, Rcpp, abind,
+        dplyr, tidyr
+Suggests: testthat
+Imports: stabledist, texmex, extRemes, foreach, doMC, parallel,
+        SALTSampler, Rcpp, RcppGSL, abind, dplyr, tidyr
+Depends: foreach, doMC, parallel, Rcpp, RcppGSL, dplyr, tidyr
+LinkingTo: Rcpp, RcppGSL
+RoxygenNote: 6.1.1
+NeedsCompilation: yes
+Packaged: 2019-10-28 00:38:03 UTC;
+
